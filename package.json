@@ -11,5 +11,8 @@
       "mocha": "npm:mocha@^2.4.5",
       "unexpected": "npm:unexpected@^10.13.2"
     }
+  },
+  "dependencies": {
+    "jspm": "0.16.34"
   }
 }
