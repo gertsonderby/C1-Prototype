@@ -1,1 +1,3 @@
-<div>Menu</div>
+<div data-bind="foreach: menus">
+    <div data-bind="text: label"></div>
+</div>

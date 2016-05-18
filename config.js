@@ -1,5 +1,5 @@
 System.config({
-  defaultJSExtensions: true,
+  defaultJSExtensions: false,
   transpiler: "babel",
   babelOptions: {
     "optional": [
@@ -11,15 +11,20 @@ System.config({
     "github:*": "jspm_packages/github/*",
     "npm:*": "jspm_packages/npm/*"
   },
+
   map: {
     "babel": "npm:babel-core@5.8.38",
     "babel-runtime": "npm:babel-runtime@5.8.38",
     "core-js": "npm:core-js@1.2.6",
     "knockout": "github:knockout/knockout@3.4.0",
+    "less": "github:aaike/jspm-less-plugin@0.0.5.js",
     "mocha": "npm:mocha@2.4.5",
     "systemjs/plugin-text": "github:systemjs/plugin-text@0.0.8",
     "text": "github:systemjs/plugin-text@0.0.8/text.js",
     "unexpected": "npm:unexpected@10.13.2",
+    "github:aaike/jspm-less-plugin@0.0.5": {
+      "less.js": "github:distros/less@2.4.0"
+    },
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
     },
@@ -60,5 +65,18 @@ System.config({
       "inherits": "npm:inherits@2.0.1",
       "process": "github:jspm/nodelibs-process@0.1.2"
     }
+  },
+  meta: {
+      "*.ko": {
+          loader: "text"
+      },
+      "*.less": {
+          loader: "less"
+      }
+  },
+  packages: {
+      "jspm_packages": {
+          "defaultExtension": "js"
+      }
   }
 });

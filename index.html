@@ -6,11 +6,12 @@
     <title>Prototype: Knockout</title>
 </head>
 <body>
-    <menubar></menubar>
-
+    <menubar params="menus: topMenus"></menubar>
+    <tree params=""></tree>
     <script src="jspm_packages/system.js"></script>
     <script src="config.js"></script>
     <script>
+    System.import('console.less');
     System.import('lib/main.js');
     </script>
 </body>
