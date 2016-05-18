@@ -1,0 +1,427 @@
+{
+    "GetElementsResponse": {
+        "GetElementsResult": {
+            "ClientElement": {
+                "ElementKey": "PageElementProviderentityTokenType='Composite\\.Data\\.DataEntityToken,Composite'entityToken='_dataId_=\\'Id=\\\\\\'a3055286-0e90-4b04-99dd-fb1a61dde0bf\\\\\\'\\'_dataIdType_=\\'CompositeGenerated\\\\\\.DynamicXmlDataProvider\\\\\\.Composite_Data_Types_IPageDataId\\'_interfaceType_=\\'Composite\\\\\\.Data\\\\\\.Types\\\\\\.IPage,Composite\\'_dataScope_=\\'administrated\\'_localeScope_=\\'en-US\\''entityTokenHash='1289415000'",
+                "ProviderName": "PageElementProvider",
+                "EntityToken": "entityTokenType='Composite\\.Data\\.DataEntityToken,Composite'entityToken='_dataId_=\\'Id=\\\\\\'a3055286-0e90-4b04-99dd-fb1a61dde0bf\\\\\\'\\'_dataIdType_=\\'CompositeGenerated\\\\\\.DynamicXmlDataProvider\\\\\\.Composite_Data_Types_IPageDataId\\'_interfaceType_=\\'Composite\\\\\\.Data\\\\\\.Types\\\\\\.IPage,Composite\\'_dataScope_=\\'administrated\\'_localeScope_=\\'en-US\\''entityTokenHash='1289415000'",
+                "PiggybagHash": "664149056",
+                "Label": "Venus Starter Site",
+                "ToolTip": "A Composite C1 Starter Site based on Razor, Twitter Bootstrap and LESS.",
+                "HasChildren": "true",
+                "IsDisabled": "false",
+                "Icon": {
+                    "ResourceNamespace": "Composite.Icons",
+                    "ResourceName": "page-draft"
+                },
+                "OpenedIcon": {
+                    "ResourceNamespace": "Composite.Icons",
+                    "ResourceName": "page-draft"
+                },
+                "Actions": {
+                    "ClientAction": [
+                        {
+                            "ActionToken": "actionTokenType='Composite\\.C1Console\\.Actions\\.Data\\.ProxyDataActionToken,Composite'actionToken='_ActionIdentifier_=\\'_ActionIdentifier_=\\\\\\'Edit\\\\\\'\\'_PermissionTypes_=\\'Edit\\'_DoIgnoreEntityTokenLocking_=\\'False\\''actionTokenHash='-1425725536'",
+                            "Label": "Edit Page",
+                            "ToolTip": "Edit selected page",
+                            "TrackingActionName": "ProxyDataActionToken",
+                            "Disabled": "false",
+                            "Icon": {
+                                "ResourceNamespace": "Composite.Icons",
+                                "ResourceName": "page-edit-page"
+                            },
+                            "ActionCategory": {
+                                "GroupId": "Key757602046",
+                                "Name": "Edit",
+                                "IsInToolbar": "true",
+                                "IsInFolder": "false"
+                            },
+                            "ActivePositions": "1",
+                            "ActionKey": "1553451889::-389127788"
+                        },
+                        {
+                            "ActionToken": "actionTokenType='Composite\\.Plugins\\.Elements\\.ElementProviders\\.PageElementProvider\\.PageAddActionToken,Composite'actionToken='_ActionIdentifier_=\\'_ActionIdentifier_=\\\\\\'Add\\\\\\'\\'_PermissionTypes_=\\'Add\\'_DoIgnoreEntityTokenLocking_=\\'True\\'_PageTypeId_=\\'f7869eb2-7369-4eb2-af47-e3be261e92c7\\''actionTokenHash='-1418966926'",
+                            "Label": "Add Page",
+                            "TrackingActionName": "PageAddActionToken",
+                            "Disabled": "false",
+                            "Icon": {
+                                "ResourceNamespace": "Composite.Icons",
+                                "ResourceName": "page-add-page"
+                            },
+                            "ActionCategory": {
+                                "GroupId": "Key757602046",
+                                "Name": "Add",
+                                "IsInToolbar": "true",
+                                "IsInFolder": "false",
+                                "ActionBundle": "AddPage"
+                            },
+                            "ActivePositions": "1",
+                            "ActionKey": "499493765::2003338231"
+                        },
+                        {
+                            "ActionToken": "actionTokenType='Composite\\.Plugins\\.Elements\\.ElementProviders\\.PageElementProvider\\.PageAddActionToken,Composite'actionToken='_ActionIdentifier_=\\'_ActionIdentifier_=\\\\\\'Add\\\\\\'\\'_PermissionTypes_=\\'Add\\'_DoIgnoreEntityTokenLocking_=\\'True\\'_PageTypeId_=\\'bea4f923-4b10-44e7-b290-c2c0ca671ea7\\''actionTokenHash='1298443375'",
+                            "Label": "Add Blog",
+                            "ToolTip": "Sets up blog on a page",
+                            "TrackingActionName": "PageAddActionToken",
+                            "Disabled": "false",
+                            "Icon": {
+                                "ResourceNamespace": "Composite.Icons",
+                                "ResourceName": "page-add-page"
+                            },
+                            "ActionCategory": {
+                                "GroupId": "Key757602046",
+                                "Name": "Add",
+                                "IsInToolbar": "true",
+                                "IsInFolder": "false",
+                                "ActionBundle": "AddPage"
+                            },
+                            "ActivePositions": "1",
+                            "ActionKey": "-472669004::1722320299"
+                        },
+                        {
+                            "ActionToken": "actionTokenType='Composite\\.C1Console\\.Actions\\.Data\\.ProxyDataActionToken,Composite'actionToken='_ActionIdentifier_=\\'_ActionIdentifier_=\\\\\\'Delete\\\\\\'\\'_PermissionTypes_=\\'Delete\\'_DoIgnoreEntityTokenLocking_=\\'False\\''actionTokenHash='-1144619974'",
+                            "Label": "Delete",
+                            "ToolTip": "Delete the selected page",
+                            "TrackingActionName": "ProxyDataActionToken",
+                            "Disabled": "false",
+                            "Icon": {
+                                "ResourceNamespace": "Composite.Icons",
+                                "ResourceName": "page-delete-page"
+                            },
+                            "ActionCategory": {
+                                "GroupId": "Key757602046",
+                                "Name": "Delete",
+                                "IsInToolbar": "true",
+                                "IsInFolder": "false"
+                            },
+                            "ActivePositions": "1",
+                            "ActionKey": "293917329::-193513874"
+                        },
+                        {
+                            "ActionToken": "actionTokenType='Composite\\.C1Console\\.Actions\\.Data\\.ProxyDataActionToken,Composite'actionToken='_ActionIdentifier_=\\'_ActionIdentifier_=\\\\\\'SendToDraft\\\\\\'\\'_PermissionTypes_=\\'Edit·Approve·Publish\\'_DoIgnoreEntityTokenLocking_=\\'True\\''actionTokenHash='852319299'",
+                            "Label": "Send to Draft",
+                            "TrackingActionName": "ProxyDataActionToken",
+                            "Disabled": "true",
+                            "Icon": {
+                                "ResourceNamespace": "Composite.Icons",
+                                "ResourceName": "item-send-back-to-draft"
+                            },
+                            "ActionCategory": {
+                                "GroupId": "Key1341509907",
+                                "GroupName": "Workflow",
+                                "Name": "Other",
+                                "IsInToolbar": "true",
+                                "IsInFolder": "false"
+                            },
+                            "ActivePositions": "1",
+                            "ActionKey": "1309659351::2022316444"
+                        },
+                        {
+                            "ActionToken": "actionTokenType='Composite\\.C1Console\\.Actions\\.Data\\.ProxyDataActionToken,Composite'actionToken='_ActionIdentifier_=\\'_ActionIdentifier_=\\\\\\'SendForApproval\\\\\\'\\'_PermissionTypes_=\\'Edit\\'_DoIgnoreEntityTokenLocking_=\\'True\\''actionTokenHash='802079622'",
+                            "Label": "Send for Approval",
+                            "ToolTip": "Send for approval",
+                            "TrackingActionName": "ProxyDataActionToken",
+                            "Disabled": "false",
+                            "Icon": {
+                                "ResourceNamespace": "Composite.Icons",
+                                "ResourceName": "item-send-forward-for-approval"
+                            },
+                            "ActionCategory": {
+                                "GroupId": "Key1341509907",
+                                "GroupName": "Workflow",
+                                "Name": "Other",
+                                "IsInToolbar": "true",
+                                "IsInFolder": "false"
+                            },
+                            "ActivePositions": "1",
+                            "ActionKey": "-271681548::109630822"
+                        },
+                        {
+                            "ActionToken": "actionTokenType='Composite\\.C1Console\\.Actions\\.Data\\.ProxyDataActionToken,Composite'actionToken='_ActionIdentifier_=\\'_ActionIdentifier_=\\\\\\'SendForPublication\\\\\\'\\'_PermissionTypes_=\\'Approve\\'_DoIgnoreEntityTokenLocking_=\\'True\\''actionTokenHash='1020787484'",
+                            "Label": "Send for Publication",
+                            "ToolTip": "Send for publication",
+                            "TrackingActionName": "ProxyDataActionToken",
+                            "Disabled": "false",
+                            "Icon": {
+                                "ResourceNamespace": "Composite.Icons",
+                                "ResourceName": "item-send-forward-for-publication"
+                            },
+                            "ActionCategory": {
+                                "GroupId": "Key1341509907",
+                                "GroupName": "Workflow",
+                                "Name": "Other",
+                                "IsInToolbar": "true",
+                                "IsInFolder": "false"
+                            },
+                            "ActivePositions": "1",
+                            "ActionKey": "432633051::1547234927"
+                        },
+                        {
+                            "ActionToken": "actionTokenType='Composite\\.C1Console\\.Actions\\.Data\\.ProxyDataActionToken,Composite'actionToken='_ActionIdentifier_=\\'_ActionIdentifier_=\\\\\\'Publish\\\\\\'\\'_PermissionTypes_=\\'Publish\\'_DoIgnoreEntityTokenLocking_=\\'True\\''actionTokenHash='-1069786067'",
+                            "Label": "Publish",
+                            "ToolTip": "Publish to site",
+                            "TrackingActionName": "ProxyDataActionToken",
+                            "Disabled": "false",
+                            "Icon": {
+                                "ResourceNamespace": "Composite.Icons",
+                                "ResourceName": "item-publish"
+                            },
+                            "ActionCategory": {
+                                "GroupId": "Key1341509907",
+                                "GroupName": "Workflow",
+                                "Name": "Other",
+                                "IsInToolbar": "true",
+                                "IsInFolder": "false"
+                            },
+                            "ActivePositions": "1",
+                            "ActionKey": "-319698835::-201851000"
+                        },
+                        {
+                            "ActionToken": "actionTokenType='Composite\\.C1Console\\.Workflow\\.WorkflowActionToken,Composite'actionToken='_WorkflowType_=\\'Composite\\\\\\.C1Console\\\\\\.Trees\\\\\\.Workflows\\\\\\.AddApplicationWorkflow,Composite\\\\\\.Workflows\\'_Payload_=\\'\\'_ExtraPayload_=\\'\\'_Ignore_=\\'True\\'_PermissionTypes_=\\'Administrate\\''actionTokenHash='-916757150'",
+                            "Label": "Add Application",
+                            "ToolTip": "Add new application",
+                            "TrackingActionName": "WorkflowActionToken",
+                            "Disabled": "false",
+                            "Icon": {
+                                "ResourceNamespace": "Composite.Icons",
+                                "ResourceName": "tree-add-application"
+                            },
+                            "ActionCategory": {
+                                "GroupId": "Key156382834",
+                                "GroupName": "Applications",
+                                "Name": "Other",
+                                "IsInToolbar": "false",
+                                "IsInFolder": "false"
+                            },
+                            "ActivePositions": "1",
+                            "ActionKey": "271310809::375685815"
+                        },
+                        {
+                            "ActionToken": "actionTokenType='Composite\\.C1Console\\.Workflow\\.WorkflowActionToken,Composite'actionToken='_WorkflowType_=\\'Composite\\\\\\.C1Console\\\\\\.Trees\\\\\\.Workflows\\\\\\.RemoveApplicationWorkflow,Composite\\\\\\.Workflows\\'_Payload_=\\'\\'_ExtraPayload_=\\'\\'_Ignore_=\\'True\\'_PermissionTypes_=\\'Administrate\\''actionTokenHash='1152504610'",
+                            "Label": "Remove Application",
+                            "ToolTip": "Remove existing application",
+                            "TrackingActionName": "WorkflowActionToken",
+                            "Disabled": "false",
+                            "Icon": {
+                                "ResourceNamespace": "Composite.Icons",
+                                "ResourceName": "tree-remove-application"
+                            },
+                            "ActionCategory": {
+                                "GroupId": "Key156382834",
+                                "GroupName": "Applications",
+                                "Name": "Other",
+                                "IsInToolbar": "false",
+                                "IsInFolder": "false"
+                            },
+                            "ActivePositions": "1",
+                            "ActionKey": "1290579734::-1977775094"
+                        },
+                        {
+                            "ActionToken": "actionTokenType='Composite\\.C1Console\\.Workflow\\.WorkflowActionToken,Composite'actionToken='_WorkflowType_=\\'Composite\\\\\\.C1Console\\\\\\.Elements\\\\\\.ElementProviderHelpers\\\\\\.AssociatedDataElementProviderHelper\\\\\\.EditMetaDataWorkflow,Composite\\\\\\.Workflows\\'_Payload_=\\'\\'_ExtraPayload_=\\'\\'_Ignore_=\\'True\\'_PermissionTypes_=\\'Configure·Administrate\\''actionTokenHash='1675997493'",
+                            "Label": "Edit Metadata Field",
+                            "ToolTip": "Edit metadata field",
+                            "TrackingActionName": "WorkflowActionToken",
+                            "Disabled": "false",
+                            "Icon": {
+                                "ResourceNamespace": "Composite.Icons",
+                                "ResourceName": "dataassociation-edit-association"
+                            },
+                            "ActionCategory": {
+                                "GroupId": "Key54777209",
+                                "GroupName": "Associated data",
+                                "Name": "Edit",
+                                "IsInToolbar": "false",
+                                "IsInFolder": "false"
+                            },
+                            "ActivePositions": "1",
+                            "ActionKey": "1206206497::945126632"
+                        },
+                        {
+                            "ActionToken": "actionTokenType='Composite\\.C1Console\\.Workflow\\.WorkflowActionToken,Composite'actionToken='_WorkflowType_=\\'Composite\\\\\\.C1Console\\\\\\.Elements\\\\\\.ElementProviderHelpers\\\\\\.AssociatedDataElementProviderHelper\\\\\\.AddDataFolderExWorkflow,Composite\\\\\\.Workflows\\'_Payload_=\\'Composite\\\\\\.Data\\\\\\.Types\\\\\\.IPage,Composite\\'_ExtraPayload_=\\'\\'_Ignore_=\\'True\\'_PermissionTypes_=\\'Configure·Administrate\\''actionTokenHash='1454400266'",
+                            "Label": "Add Datafolder",
+                            "ToolTip": "Add datafolder",
+                            "TrackingActionName": "WorkflowActionToken",
+                            "Disabled": "false",
+                            "Icon": {
+                                "ResourceNamespace": "Composite.Icons",
+                                "ResourceName": "dataassociation-add-association"
+                            },
+                            "ActionCategory": {
+                                "GroupId": "Key54777209",
+                                "GroupName": "Associated data",
+                                "Name": "Add",
+                                "IsInToolbar": "false",
+                                "IsInFolder": "false"
+                            },
+                            "ActivePositions": "1",
+                            "ActionKey": "2118663079::640510583"
+                        },
+                        {
+                            "ActionToken": "actionTokenType='Composite\\.C1Console\\.Workflow\\.WorkflowActionToken,Composite'actionToken='_WorkflowType_=\\'Composite\\\\\\.C1Console\\\\\\.Elements\\\\\\.ElementProviderHelpers\\\\\\.AssociatedDataElementProviderHelper\\\\\\.AddMetaDataWorkflow,Composite\\\\\\.Workflows\\'_Payload_=\\'Composite\\\\\\.Data\\\\\\.Types\\\\\\.IPage,Composite\\'_ExtraPayload_=\\'\\'_Ignore_=\\'True\\'_PermissionTypes_=\\'Configure·Administrate\\''actionTokenHash='-1843575193'",
+                            "Label": "Add Metadata Field",
+                            "ToolTip": "Add metadata field",
+                            "TrackingActionName": "WorkflowActionToken",
+                            "Disabled": "false",
+                            "Icon": {
+                                "ResourceNamespace": "Composite.Icons",
+                                "ResourceName": "dataassociation-add-association"
+                            },
+                            "ActionCategory": {
+                                "GroupId": "Key54777209",
+                                "GroupName": "Associated data",
+                                "Name": "Add",
+                                "IsInToolbar": "false",
+                                "IsInFolder": "false"
+                            },
+                            "ActivePositions": "1",
+                            "ActionKey": "1763531000::-804780159"
+                        },
+                        {
+                            "ActionToken": "actionTokenType='Composite\\.C1Console\\.Workflow\\.WorkflowActionToken,Composite'actionToken='_WorkflowType_=\\'Composite\\\\\\.C1Console\\\\\\.Elements\\\\\\.ElementProviderHelpers\\\\\\.AssociatedDataElementProviderHelper\\\\\\.DeleteMetaDataWorkflow,Composite\\\\\\.Workflows\\'_Payload_=\\'\\'_ExtraPayload_=\\'\\'_Ignore_=\\'False\\'_PermissionTypes_=\\'Configure·Administrate\\''actionTokenHash='-322442023'",
+                            "Label": "Remove Metadata Field",
+                            "ToolTip": "Remove metadata field",
+                            "TrackingActionName": "WorkflowActionToken",
+                            "Disabled": "false",
+                            "Icon": {
+                                "ResourceNamespace": "Composite.Icons",
+                                "ResourceName": "dataassociation-remove-association"
+                            },
+                            "ActionCategory": {
+                                "GroupId": "Key54777209",
+                                "GroupName": "Associated data",
+                                "Name": "Delete",
+                                "IsInToolbar": "false",
+                                "IsInFolder": "false"
+                            },
+                            "ActivePositions": "1",
+                            "ActionKey": "-84912523::17310063"
+                        },
+                        {
+                            "ActionToken": "actionTokenType='Composite\\.C1Console\\.Elements\\.Foundation\\.ManageUserPermissionsActionToken,Composite'actionToken='ManageUserPermissions'actionTokenHash='723362209'",
+                            "Label": "Edit Permissions",
+                            "ToolTip": "Manage user permissions",
+                            "TrackingActionName": "ManageUserPermissionsActionToken",
+                            "Disabled": "false",
+                            "Icon": {
+                                "ResourceNamespace": "Composite.Icons",
+                                "ResourceName": "security-manage-permissions"
+                            },
+                            "ActionCategory": {
+                                "GroupId": "Key29059786",
+                                "GroupName": "Common tasks",
+                                "Name": "Other",
+                                "IsInToolbar": "false",
+                                "IsInFolder": "false"
+                            },
+                            "ActivePositions": "1",
+                            "ActionKey": "-68756239::-1620577987"
+                        },
+                        {
+                            "ActionToken": "actionTokenType='Composite\\.C1Console\\.Elements\\.Foundation\\.RelationshipGraphActionToken,Composite'actionToken='ShowGraph'actionTokenHash='-815610349'",
+                            "Label": "Show Graph",
+                            "ToolTip": "Show relationship graph",
+                            "TrackingActionName": "RelationshipGraphActionToken",
+                            "Disabled": "false",
+                            "Icon": {
+                                "ResourceNamespace": "Composite.Icons",
+                                "ResourceName": "nodes"
+                            },
+                            "ActionCategory": {
+                                "GroupId": "Key29059786",
+                                "GroupName": "Common tasks",
+                                "Name": "DeveloperMode",
+                                "IsInToolbar": "false",
+                                "IsInFolder": "false"
+                            },
+                            "ActivePositions": "1",
+                            "ActionKey": "1991038045::2078747222"
+                        },
+                        {
+                            "ActionToken": "actionTokenType='Composite\\.C1Console\\.Elements\\.Foundation\\.RelationshipGraphActionToken,Composite'actionToken='ShowOrientedGraph'actionTokenHash='211001187'",
+                            "Label": "Show Oriented Graph",
+                            "ToolTip": "Show Oriented Relationship graph",
+                            "TrackingActionName": "RelationshipGraphActionToken",
+                            "Disabled": "false",
+                            "Icon": {
+                                "ResourceNamespace": "Composite.Icons",
+                                "ResourceName": "nodes"
+                            },
+                            "ActionCategory": {
+                                "GroupId": "Key29059786",
+                                "GroupName": "Common tasks",
+                                "Name": "DeveloperMode",
+                                "IsInToolbar": "false",
+                                "IsInFolder": "false"
+                            },
+                            "ActivePositions": "1",
+                            "ActionKey": "-70222592::-25624331"
+                        },
+                        {
+                            "ActionToken": "actionTokenType='Composite\\.C1Console\\.Elements\\.Foundation\\.ShowElementInformationActionToken,Composite'actionToken='ShowElementInformation'actionTokenHash='345409323'",
+                            "Label": "Show Element Information",
+                            "ToolTip": "Show Element Information",
+                            "TrackingActionName": "ShowElementInformationActionToken",
+                            "Disabled": "false",
+                            "Icon": {
+                                "ResourceNamespace": "Composite.Icons",
+                                "ResourceName": "generic-search"
+                            },
+                            "ActionCategory": {
+                                "GroupId": "Key29059786",
+                                "GroupName": "Common tasks",
+                                "Name": "DeveloperMode",
+                                "IsInToolbar": "false",
+                                "IsInFolder": "false"
+                            },
+                            "ActivePositions": "1",
+                            "ActionKey": "1703009736::1615391832"
+                        }
+                    ]
+                },
+                "ActionKeys": {
+                    "string": [
+                        "1553451889::-389127788",
+                        "499493765::2003338231",
+                        "-472669004::1722320299",
+                        "293917329::-193513874",
+                        "1309659351::2022316444",
+                        "-271681548::109630822",
+                        "432633051::1547234927",
+                        "-319698835::-201851000",
+                        "271310809::375685815",
+                        "1290579734::-1977775094",
+                        "1206206497::945126632",
+                        "2118663079::640510583",
+                        "1763531000::-804780159",
+                        "-84912523::17310063",
+                        "-68756239::-1620577987",
+                        "1991038045::2078747222",
+                        "-70222592::-25624331",
+                        "1703009736::1615391832"
+                    ]
+                },
+                "PropertyBag": {
+                    "KeyValuePair": [
+                        {
+                            "Key": "Uri",
+                            "Value": "~/page(a3055286-0e90-4b04-99dd-fb1a61dde0bf)"
+                        },
+                        {
+                            "Key": "ElementType",
+                            "Value": "application/x-composite-page"
+                        },
+                        {
+                            "Key": "DataId",
+                            "Value": "a3055286-0e90-4b04-99dd-fb1a61dde0bf"
+                        }
+                    ]
+                },
+                "DropTypeAccept": { "string": "IPage::1679970037" },
+                "DetailedDropSupported": "true",
+                "DragType": "IPage::1679970037",
+                "ContainsTaggedActions": "false",
+                "TreeLockEnabled": "true"
+            }
+        }
+    }
+}
