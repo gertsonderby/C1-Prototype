@@ -1,0 +1,16 @@
+<div data-bind="template: { foreach: root.children, name: 'treeNode' }">
+</div>
+<script type="text/html" id="treeNode">
+    <div>
+        <!-- ko if: hasChildren -->
+        <span class="opener" data-bind="click: function () { isOpen(!isOpen()) }, text: isOpen() ? '-' : '+'"></span>
+        <!-- /ko -->
+        <!-- ko ifnot: hasChildren -->
+        <span class="opener">&nbsp;</span>
+        <!-- /ko -->
+        <span data-bind="text: label">Label</span>
+    </div>
+    <!-- ko if: hasChildren && isOpen() -->
+    <div class="tree-children" data-bind="template: { foreach: children, name: 'treeNode' }"></div>
+    <!-- /ko -->
+</script>
