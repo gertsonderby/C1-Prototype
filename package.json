@@ -12,12 +12,6 @@
       "core-js": "npm:core-js@^1.1.4",
       "mocha": "npm:mocha@^2.4.5",
       "unexpected": "npm:unexpected@^10.13.2"
-    },
-    "overrides": {
-      "npm:action-executor@1.0.2": {
-        "main": "lib/ActionExecutor.js",
-        "format": "cjs"
-      }
     }
   },
   "dependencies": {

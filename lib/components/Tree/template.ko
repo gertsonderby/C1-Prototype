@@ -1,9 +1,9 @@
 <div data-bind="template: { foreach: root.children, name: 'treeNode' }">
 </div>
 <script type="text/html" id="treeNode">
-    <div>
+    <div data-bind="click: $component.getClickHandler($data)">
         <!-- ko if: hasChildren -->
-        <span class="opener" data-bind="click: function () { isOpen(!isOpen()) }, text: isOpen() ? '-' : '+'"></span>
+        <span class="opener" data-bind="text: isOpen() ? '-' : '+'"></span>
         <!-- /ko -->
         <!-- ko ifnot: hasChildren -->
         <span class="opener">&nbsp;</span>

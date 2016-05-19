@@ -7,7 +7,7 @@
 </head>
 <body>
     <menubar params="menus: state.topMenus"></menubar>
-    <tree params="root: state.treeMenuRoot"></tree>
+    <tree params="root: state.treeMenuRoot, loadNode: loadTree.bind($data)"></tree>
     <script src="jspm_packages/system.js"></script>
     <script src="config.js"></script>
     <script>
