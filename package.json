@@ -15,7 +15,8 @@
     },
     "overrides": {
       "npm:action-executor@1.0.2": {
-        "main": "lib/ActionExecutor.js"
+        "main": "lib/ActionExecutor.js",
+        "format": "cjs"
       }
     }
   },
