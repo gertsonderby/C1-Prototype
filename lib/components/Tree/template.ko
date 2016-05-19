@@ -1,7 +1,7 @@
 <div data-bind="template: { foreach: root.children, name: 'treeNode' }">
 </div>
 <script type="text/html" id="treeNode">
-    <div data-bind="click: $component.getClickHandler($data)">
+    <div class="node" data-bind="click: $component.getClickHandler($data)">
         <!-- ko if: hasChildren -->
         <span class="opener" data-bind="text: isOpen() ? '-' : '+'"></span>
         <!-- /ko -->
