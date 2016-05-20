@@ -1,3 +1,7 @@
-<div>
-    Tools!
-</div>
+<!-- ko foreach: actionGroups() -->
+    <div class="category">
+        <!-- ko foreach: actions -->
+        <button data-bind="text: label, attr: { title: tooltip }, click: $component.getClickHandler($data)"></button>
+        <!-- /ko -->
+    </div>
+<!-- /ko -->
